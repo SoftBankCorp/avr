@@ -1,0 +1,14 @@
+{
+    "AVR.reporter.arguments": [
+        "-C"
+    ],
+    "AVR.source.compiler": "/opt/homebrew/bin/avr-gcc",
+    "AVR.programmer.tool": "/opt/homebrew/bin/avrdude",
+    "AVR.programmer.definitions": "/opt/homebrew/etc/avrdude.conf",
+    "AVR.source.libraries": [
+        "/opt/homebrew/opt/avr-gcc/avr/include"
+    ],
+    "AVR.programmer.type": "usbasp",
+    "AVR.device.type": "atmega328p",
+    "AVR.device.frequency": 16000000
+}
